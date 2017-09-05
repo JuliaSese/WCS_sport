@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo a{
+}
+
+.logo a img{
+}
+
+.header{
+	
+}
+
+.header .nom{max-width: 427px;margin: auto;}
+
+.header .menu{
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+.header .menu a{
+	text-decoration: none;
+	background-color: #63c72c;
+	padding: 8px;
+}
+
+.presentation{
+	background-color: rgba(0, 0, 0, 0.07);
+	padding: 25px;
+	margin: auto;
+	width: 90%;
+}
+
+.presentation h2{
+	
+}
+
+.presentation img{
+	
+}
+
+.actu{
+	background-color: rgba(0, 0, 0, 0.07);
+	padding: 25px;
+	margin: auto;
+	width: 370px;
+}
+
+.footer{
+	background-color: rgba(0, 0, 0, 0.95);
+	color: #989898;
+	padding: 10px;
+}
+
+.footer .menu{
+	
+}
+
+.footer .menu a{
+	text-decoration: none;
+	color: white;
+	padding: 0 5px 0 5px;
+}
+
+.footer .nom{
+	margin-top: 10px;
+}
+
+.footer .copy{
+}
+
+
+.split{
+	height: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
