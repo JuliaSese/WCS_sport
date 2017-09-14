@@ -2,9 +2,11 @@
 <html lang=fr>
 	<head>
 		<title>
-			K ratés
+			K ratÃ©s
 		</title>
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
@@ -16,8 +18,8 @@
 			</div>
 			<div class=menu>
 				<a href=cours.html>Cours</a>
-				<a href=competition.html>Compétitions</a>
-				<a href=contact.html>Contact</a>
+				<a href=comptition.html>CompÃ©titions</a>
+				<a href=contact.html>Contact</>
 			</div>
 			<div class=split></div>
 			<div class=banner>
@@ -25,52 +27,51 @@
 			</div>
 		</div>
 		<div class=presentation>
-			<form method="post" action="#">
-				<input type="text" placeholder="Nom" name="nom" required />
-				<br />
-				<input type="text" placeholder="Email" name="email" required />
-				<br />
+			<div class="form">
+			<div class="input-group">
+			  <input type="text" class="form-control" placeholder="Nom" aria-describedby="basic-addon1">
+			</div>
+			<div class="input-group">
+			  <input type="text" class="form-control" placeholder="Prenom" aria-describedby="basic-addon2">
+			</div>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Mail" aria-describedby="basic-addon2">
+			</div>
+			<div class="input-group">
 				<textarea placeholder="Message" name="message" required></textarea>
-			</form>
+			</div>
+
+			<div class="btn-group">
+			  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Vous Ãªtes <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a href="#">Un particulier</a></li>
+			    <li><a href="#">Une association</a></li>
+					<li><a href="#">Un Ã©lu</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="#">Separated link</a></li>
+			  </ul>
+			</div>
+		</div>
+
 		</div>
 		<div class=split></div>
 		<div class=split></div>
 		<div class=footer>
 			<div class=menu>
 				<a href=cours.html>Cours</a>
-				<a href=competition.html>Compétitions</a>
+				<a href=competition.html>Compï¿½titions</a>
 				<a href=contact.html>Contact</a>
 			</div>
 			<div class=nom>
-				Association Karaté
+				Association Karatï¿½
 				<br />
 				Adresse
 			</div>
 			<div class=copy>
-				Association Karaté&copy;2017
+				Association Karatï¿½&copy;2017
 			</div>
 		</div>
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
