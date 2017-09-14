@@ -4,21 +4,23 @@
 	font-family: Roboto;
 }
 
-.logo{
-	text-align: center;
-}
-
-.logo a{
-}
-
-.logo a img{
-}
-
 .header{
 	
 }
 
-.header .nom{max-width: 427px;margin: auto;}
+.header .logo{
+	text-align: center;
+}
+
+.header .logo a{
+}
+
+.header .logo a img{
+	width: 400px;
+}
+
+.header .nom{max-width: 427px;margin: auto;
+}
 
 .header .menu{
 	display: flex;
@@ -28,15 +30,26 @@
 
 .header .menu a{
 	text-decoration: none;
-	background-color: #63c72c;
-	padding: 8px;
+	background-color: #f1f1f1;
+	padding: 15px;
+	color: black;
+}
+
+.banner{
+	
+text-align: center;
+}
+
+.banner img{
+	width: 100%;
 }
 
 .presentation{
-	background-color: rgba(0, 0, 0, 0.07);
+	background-color: #f9f9f9;
 	padding: 25px;
 	margin: auto;
 	width: 90%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.38);
 }
 
 .presentation h2{
@@ -48,10 +61,49 @@
 }
 
 .actu{
-	background-color: rgba(0, 0, 0, 0.07);
+	background-color: #f9f9f9;
 	padding: 25px;
 	margin: auto;
-	width: 370px;
+	width: 90%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.38);
+}
+
+.TabCours{
+	
+text-align: center;
+	
+/* margin: auto; */
+	
+/* width: 580px; */
+}
+
+.TabCours table{
+	
+}
+
+.TabCours table caption{
+	
+}
+
+.TabCours table tr{
+	
+background-color: #f1f1f1;
+}
+
+.TabCours table tr th{
+	
+width: 14%;
+	
+background-color: #f1f1f1;
+	
+padding: 20px;
+}
+
+.TabCours table tr td{
+	
+padding: 20px;
+	
+box-shadow: 0 0px 0px black;
 }
 
 .footer{
